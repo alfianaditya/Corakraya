@@ -1,0 +1,276 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    scroll-behavior: smooth;
+}
+#coveratas {
+    background-image: url(../img/HeroImageWeb.png);
+    background-size: cover;
+    background-position: right;
+    height: 100%;
+}
+.cover{
+    padding: 155px 0px 0px 75px;
+    color:  white;
+    position: relative;
+    width: 50%;
+    height: auto;
+}
+.cover h1 {
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+}
+.cover p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.tombol {
+    border: none;
+    color: white;
+    padding: 13px 53px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pencet {
+    background: white;
+    color: #925818;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    border: 2px solid white;
+}
+.pencet:hover {
+    background-color:#925818;
+    color: white;
+}
+
+/**----------------------------ASAL--------------------------**/
+
+#asal {
+    height: 100%;
+}
+.isiasal {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+}
+.asalatasan {
+    display: none;
+}
+.asalkiri {
+    width: 50%;
+    padding: 50px 0px;
+}
+.asalkiri img {
+    width: 80%;
+    padding-left: 55px;
+    height: 112%;
+}
+.asalkanan {
+    width: 50%;
+    padding: 50px 0px;
+}
+.asalkanan h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 57px;
+    color: #925818;
+}
+.asalkanan p{
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4F4F4F;
+}
+
+/**----------------------------Jenis--------------------------**/
+#jenis {
+    height: 100%;
+}
+.isijenis {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.jeniskartu {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 180px;
+}
+.jenisatas {
+    text-align: center;
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .cover {
+        text-align: center;
+        width: auto;
+        padding: 135px 0px 0px 21px;
+    }
+    .cover h1 {
+        font-size: 40px;
+        padding: 0px 60px;
+    }
+    .cover p {
+        padding: 0px 175px;
+        display: inherit;
+    }
+    /**------------------ASAL-----------------**/
+    #asal {
+        height: 230%;
+    }
+    .asalatasan {
+        display: inherit;
+        padding: 0px 47px;
+        padding-top: 15px;
+        display: inherit;
+    }
+    .asalatasan h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 57px;
+        color: #925818;
+    }
+    .asalkanan h1 {
+        display: none;
+    }
+    .isiasal {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    .asalkiri {
+        width: 100%;
+    }
+    .asalkanan {
+        width: 100%;
+        padding: 0px 155px;
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+    .asalkanan p {
+        font-size: 19px;
+    }
+    .asalatasan h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 57px;
+        color: #925818;
+    }
+
+    /**------------------Jenis--------------------**/
+    .jeniskartu {
+        padding: 50px;
+    }
+
+    /**-------------Teknik-------------------------**/
+
+    #teknik {
+        background-image: url(../img/HeroImageWeb.png);
+        background-size: cover;
+        background-position: right;
+        height: 100%;
+    }
+    .teknikisi{
+        padding: 155px 0px 0px 75px;
+        color:  white;
+        position: relative;
+        width: 50%;
+        height: auto;
+    }
+    .teknikisi h1 {
+        font-size: 40px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .teknikisi p {
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 480px) {
+    .cover {
+        padding: 135px 0px 0px 21px;
+        text-align: center;
+        width: auto;
+    }
+    .cover h1 {
+        font-size: 22px;
+        padding: 0px 30px;
+    }
+    .cover p {
+        display: inherit;
+        font-size: 10px;
+        padding: 0px 70px;
+    }
+
+    /**------------------ASAL-----------------**/
+    #asal {
+        height: 200%;
+    }
+    .asalatasan {
+        display: inherit;
+        padding: 0px 47px;
+        padding-top: 15px;
+        display: inherit;
+    }
+    .asalatasan h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 57px;
+        color: #925818;
+    }
+    .asalkanan h1 {
+        display: none;
+    }
+    .isiasal {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    .asalkiri {
+        width: 100%;
+    }
+    .asalkanan {
+        width: 100%;
+        padding: 0px 24px;
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+
+    .asalkanan h1 {
+        display: none;
+    }
+    .isiasal {
+        flex-wrap: wrap;
+    }
+    .asalkiri {
+        width: 100%;
+    }
+    .asalkiri img{
+        padding-left: 45px;
+    }
+    .asalkanan {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+
+}
+

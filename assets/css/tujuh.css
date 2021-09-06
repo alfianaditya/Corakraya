@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+.br {
+    background:rgba(174, 129, 84, 0.07);
+}
+.gambartujuh {
+    background-image: url(../img/HeroImageWeb.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.copertujuh {
+    width: 565px;
+    padding-top: 180px;
+    padding-left: 60px;
+    font-family: 'Nunito', sans-serif;
+    color:  white;
+    font-weight: 300;
+}
+
+.copertujuh h1 {
+    font-size: 40px;
+}
+
+.copertujuh p {
+    width: 500px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+/**--------------------------------**/
+
+#sejarahtujuh {
+    width: auto;
+    display: flex;
+    background: rgba(174, 129, 84, 0.07);
+}
+#sejarahtujuh h1 {
+    display: none;
+}
+#sejarahtujuh img {
+    width: 385px;
+    height: 233px;
+    padding-left: 160px;
+}
+.isisejarahtujuh {
+    padding-left: 90px;
+    width: 540px;
+    margin-top: -15px;
+}
+.isisejarahtujuh h2{
+    font-size: 38px;
+    font-family: 'Nunito', sans-serif;
+    color: #8A4704;
+}
+.isisejarahtujuh p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-style: normal;
+    color: #464646;
+    padding-top: 30px;
+}
+
+/**--------------------------------**/
+
+#maknatujuh {
+    width: auto;
+    background: rgba(174, 129, 84, 0.07);
+}
+.isimaknatujuh h1{
+    font-size: 38px;
+    font-family: 'Nunito', sans-serif;
+    color: #8A4704;
+    text-align: center;
+}
+.bor {
+    border-top: 4px solid #8A4704;
+    margin-inline: 571px;
+    margin-top: 10px;
+    margin-right: 548px;
+}
+.p1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: #464646;
+    text-align: center;
+    margin: 0px 235px;
+    padding-top: 60px;
+}
+.p2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: #464646;
+    text-align: center;
+    margin: 0px 250px;
+}
+
+/**--------------------------------**/
+
+.judullain h1{
+    font-size: 26px;
+    font-family: 'Nunito', sans-serif;
+    color: #8A4704;
+    padding-left: 158px;
+    padding-bottom: 20px;
+    background: rgba(174, 129, 84, 0.07);
+}

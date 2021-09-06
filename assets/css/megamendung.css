@@ -1,0 +1,157 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+.br {
+    background:rgba(174, 129, 84, 0.07);
+}
+.gambarmega {
+    background-image: url(../img/HeroImageWeb.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.copermega {
+    width: 565px;
+    padding-top: 180px;
+    padding-left: 60px;
+    font-family: 'Nunito', sans-serif;
+    color:  white;
+    font-weight: 300;
+}
+
+.copermega h1 {
+    font-size: 40px;
+}
+
+.copermega p {
+    width: 500px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+/**--------------------------------**/
+
+#sejarahmega {
+    width: auto;
+    display: flex;
+    background: rgba(174, 129, 84, 0.07);
+}
+#sejarahmega h1 {
+    display: none;
+}
+#sejarahmega img {
+    width: 385px;
+    height: 233px;
+    padding-left: 160px;
+}
+.isisejarahmega {
+    padding-left: 90px;
+    width: 585px;
+    margin-top: -15px;
+}
+.isisejarahmega h2{
+    font-size: 38px;
+    font-family: 'Nunito', sans-serif;
+    color: #8A4704;
+}
+.isisejarahmega p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-style: normal;
+    color: #464646;
+    padding-top: 30px;
+}
+
+/**--------------------------------**/
+
+#maknamega {
+    width: auto;
+    background: rgba(174, 129, 84, 0.07);
+    margin-top: -200px;
+}
+.isimaknamega h1{
+    font-size: 38px;
+    font-family: 'Nunito', sans-serif;
+    color: #8A4704;
+    text-align: center;
+}
+.bor {
+    border-top: 4px solid #8A4704;
+    margin-inline: 571px;
+    margin-top: 10px;
+    margin-right: 548px;
+}
+.isimaknamega p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: #464646;
+    text-align: center;
+    margin: 0px 235px;
+    padding-top: 60px;
+}
+
+/**--------------------------------**/
+
+#jenismega {
+    width: auto;
+    background: rgba(174, 129, 84, 0.07);
+    margin-top: -182px;
+}
+#jenismega {
+    display: flex;
+}
+#jenismega img{
+    width: 390px;
+    height: 233px;
+    padding-left: 160px;
+}
+.isijenismega{
+    padding-left: 90px;
+}
+.isijenismega h1{
+    font-size: 38px;
+    font-family: 'Nunito', sans-serif;
+    color: #8A4704;
+}
+.isijenismega2 p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    font-style: normal;
+    color: #2F2F2F;
+}
+.isijenismega span {
+    color: #8A4704;
+    font-weight: bold;
+}
+.jenis_isi {
+    margin-top: -200px;
+}
+/**--------------------------------**/
+.judullain h1{
+    font-size: 26px;
+    font-family: 'Nunito', sans-serif;
+    color: #8A4704;
+    padding-left: 158px;
+    padding-bottom: 20px;
+    background: rgba(174, 129, 84, 0.07);
+}
+@media only screen and (max-width: 763px) {
+    #sejarahmega {
+        display: inherit;
+    }
+    .isisejarahmega {
+        padding-left: 27px;
+        width: 585px;
+        margin-top: -15px;
+    }
+}
