@@ -404,7 +404,7 @@ html {
     }
 }
 
-@media (min-width: 376px) and (max-width: 480px) {
+@media (min-width: 377px) and (max-width: 480px) {
     .cover {
         padding: 135px 0px 0px 21px;
         text-align: center;
@@ -723,9 +723,9 @@ html {
         background: rgba(174, 129, 84, 0.45);
     }
     .produkatasan img {
-        margin-left: 21px;
+        margin-left: 15px;
         width: 84%;
-        height: 50%;
+        height: 45%;
     }
     .produkkiri {
         display: none;
