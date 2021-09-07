@@ -540,19 +540,18 @@ html {
         width: 80%;
         height: auto;
         display: inherit;
-        margin-left: 33px;
         background: rgba(174, 129, 84, 0.45);
     }
     .produkatasan img {
         margin-left: 21px;
         width: 84%;
-        height: 60%;
     }
     .produkkiri {
         display: none;
     }
     .produkisi {
-        display: inherit;
+        flex-wrap: wrap;
+        justify-content: center;
         padding: 35px 0px 0px 0px;
     }
     .produkkanan {
@@ -577,7 +576,7 @@ html {
         font-family: 'Roboto', sans-serif;
     }
     .produktextp {
-        padding: 0px 10px 10px 34px;
+        padding: 0px 35px 10px 34px;
     }
     .tombol1 {
         padding: 8px 40px;
