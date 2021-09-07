@@ -583,4 +583,183 @@ html {
         padding: 8px 40px;
     }
 }
+@media (min-width: 375px) and (max-width: 424px) {
+    .cover {
+        padding: 135px 0px 0px 21px;
+        text-align: center;
+        width: auto;
+    }
+    .cover h1 {
+        font-size: 22px;
+        padding: 0px 30px;
+    }
+    .cover p {
+        display: inherit;
+        font-size: 10px;
+        padding: 0px 70px;
+    }
+
+    /**------------------ASAL-----------------**/
+    #asal {
+        height: auto;
+    }
+    .asalatasan {
+        display: inherit;
+        padding: 0px 47px;
+        padding-top: 15px;
+        display: inherit;
+    }
+    .asalatasan h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 57px;
+        color: #925818;
+    }
+    .asalkanan h1 {
+        display: none;
+    }
+    .isiasal {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    .asalkiri {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+    .asalkanan {
+        width: 100%;
+        padding-top: 50px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 25px;
+    }
+
+    .asalkanan h1 {
+        display: none;
+    }
+    .isiasal {
+        flex-wrap: wrap;
+    }
+    .asalkiri {
+        width: 100%;
+    }
+    .asalkiri img{
+        padding-left: 45px;
+    }
+    .asalkanan {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+    .asalkanan p {
+        padding: 0px;
+    }
+    /**-----------------------------------TEKNIK-----------------------------------**/
+
+    #teknik {
+        height: auto;
+    }
+    .teknikatasan {
+        display: inherit;
+        padding: 0px;
+        padding-top: 15px;
+    }
+    .teknikatasan h1 {
+        font-size: 25px;
+    }
+    .teknikisi {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    .teknikkiri {
+        width: 100%;
+    }
+    .teknikkanan {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 25px;
+    }
+    .teknikkiri img {
+        width: 75%;
+        padding-left: 55px;
+        height: 112%;
+        margin-top: -20px;
+    }
+    .teknikatasan h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 57px;
+        color: #925818;
+        font-family: 'Nunito', sans-serif;
+    }
+    .teknikkanan h1 {
+        display: none;
+    }
+    .teknikkanan h2 {
+        font-size: 25px;
+        color: #925818;
+    }
+    .teknikkanan p {
+        font-size: 13px;
+        padding-left: 35px;
+        line-height: 16px;
+        padding-right: 0px;
+    }
+
+    /**-----------------------------PRODUK-------------------**/
+    #produk {
+        padding: 75px 35px 0px 35px;
+    }
+    .produkatasan {
+        width: 84%;
+        height: auto;
+        display: inherit;
+        margin-left: 33px;
+        background: rgba(174, 129, 84, 0.45);
+    }
+    .produkatasan img {
+        margin-left: 21px;
+        width: 84%;
+        height: 60%;
+    }
+    .produkkiri {
+        display: none;
+    }
+    .produkisi {
+        display: inherit;
+        padding: 35px 0px 0px 0px;
+    }
+    .produkkanan {
+        width: 100%;
+        background-size: 158vh;
+        background-position: -47vh -51vh
+    }
+    .produkkanan h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 32px;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+    }
+    .produkkanan p {
+        font-style: normal;
+        font-size: 12px;
+        line-height: 20px;
+        color: white;
+        font-weight: 100;
+        font-family: 'Roboto', sans-serif;
+    }
+    .produktextp {
+        padding: 0px 10px 10px 34px;
+    }
+    .tombol1 {
+        padding: 8px 40px;
+    }
+}
 
