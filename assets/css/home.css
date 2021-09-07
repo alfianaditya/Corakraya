@@ -537,7 +537,7 @@ html {
         padding: 75px 35px 0px 35px;
     }
     .produkatasan {
-        width: 84%;
+        width: 83%;
         height: auto;
         display: inherit;
         margin-left: 33px;
@@ -716,7 +716,7 @@ html {
         padding: 40px 30px 0px 30px;
     }
     .produkatasan {
-        width: 78%;
+        width: 79%;
         height: auto;
         display: inherit;
         margin-left: 33px;
@@ -736,8 +736,8 @@ html {
     }
     .produkkanan {
         width: 100%;
-        background-size: 158vh;
-        background-position: -47vh -51vh
+        background-size: 145vh;
+        background-position: -44vh -40vh;
     }
     .produkkanan h1 {
         font-style: normal;
