@@ -404,7 +404,7 @@ html {
     }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 376px) and (max-width: 480px) {
     .cover {
         padding: 135px 0px 0px 21px;
         text-align: center;
@@ -583,7 +583,7 @@ html {
         padding: 8px 40px;
     }
 }
-@media (min-width: 375px) and (max-width: 424px) {
+@media (min-width: 321px) and (max-width: 376px) {
     .cover {
         padding: 135px 0px 0px 21px;
         text-align: center;
