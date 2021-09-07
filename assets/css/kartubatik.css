@@ -1,0 +1,84 @@
+#kartubatik {
+    height: auto;
+    padding-top: 200px;
+    background:rgba(174, 129, 84, 0.07);
+}
+
+.isikartu {
+    display: flex;
+    position: relative;
+    height: auto;
+    font-family: 'Nunito', sans-serif;
+    justify-content: flex-end;
+}
+.kartu {
+    margin-right: 65px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.34);
+    border-radius: 3px;
+    line-height: 110px;
+
+}
+.kartu img {
+    width: 234px;
+    height: 213px;
+}
+
+.kartu h1 {
+    width:auto;
+    height: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #4F4F4F;
+    margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+.kartu button {
+    color: white;
+    width: 85px;
+    height: 30px;
+    background: #8A4704;
+    border-radius: 2px;
+    margin: 20px 74px;
+    font-size: 9px; 
+    border: none;
+    outline: none;
+    transition: .3s ease;
+}
+
+
+.kartuatasan {
+    height: 10%;
+    font-style: normal;
+    font-weight: bold;
+    padding-left: 17%;
+    font-size: 25px;
+    line-height: 19px;
+    color: #8A4704;
+    font-family: 'Nunito', sans-serif;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    #kartubatik {
+        display: none;
+    }
+    .jeniskiri img {
+        width: 65%;
+        padding: 0px 134px;
+        height: auto;
+    }
+    .isijenis {
+        height: auto;
+    }
+}
+
+
+@media (max-width: 480px)  {
+    #kartubatik {
+        display: none;
+    }
+}
