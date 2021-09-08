@@ -189,24 +189,29 @@ html {
 .produkatasan {
     display: none;
 }
-.produkkiri img {
-    width: 100%;
+.produkkiri {
+    width: 35%;
     height: auto;
-    margin-top: -80px;
+    padding: 0px 0px 0px 0px;
+}
+.produkkiri img {
+    width: 90%;
+    padding: 0px 30px;
+    margin-top: -83px;
 }
 .produkkanan {
-    width: 60%;
+    width: 65%;
     padding: 0px 0px;
     background-image: url(../img/gunungwayang.png);
     background-size: 128vh;
-    background-position: 17vh -25vh;
+    background-position: 24vh -25vh;
     background-repeat: no-repeat;
 }
 .produktexth1 {
-    padding: 50px 34px 30px 34px;
+    padding: 50px 180px 30px 34px;
 }
 .produktextp {
-    padding: 0px 110px 30px 34px
+    padding: 0px 225px 30px 34px;
 }
 .produktombol {
     border: none;
@@ -221,6 +226,7 @@ html {
     cursor: pointer;
     border-radius: 5px;
 }
+
 .produkkanan h1 {
     font-style: normal;
     font-weight: bold;
@@ -448,10 +454,7 @@ html {
     }
     .asalkanan {
         width: 100%;
-        padding-top: 50px;
-        padding-left: 35px;
-        padding-right: 35px;
-        padding-bottom: 25px;
+        padding: 0px 24px;
     }
 
     .asalkanan h1 {
@@ -465,11 +468,6 @@ html {
     }
     .asalkiri img{
         padding-left: 45px;
-    }
-    .asalkanan {
-        width: 100%;
-        padding-top: 50px;
-        padding-bottom: 25px;
     }
     .asalkanan p {
         padding: 0px;
@@ -576,5 +574,8 @@ html {
     }
     .tombol1 {
         padding: 8px 40px;
+    }
+    .produktexth1 {
+        padding: 50px 30px 30px 34px;
     }
 }

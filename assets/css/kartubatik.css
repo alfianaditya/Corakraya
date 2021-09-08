@@ -74,6 +74,9 @@
     .isijenis {
         height: auto;
     }
+    #kartubatik {
+        display: none;
+    }
 }
 
 
