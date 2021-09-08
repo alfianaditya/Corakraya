@@ -72,12 +72,13 @@ html {
 }
 .asalkiri {
     width: 50%;
+    height: auto;
     padding: 50px 0px;
 }
 .asalkiri img {
     width: 80%;
     padding-left: 55px;
-    height: 100%;
+    height: auto;
 }
 .asalkanan {
     width: 50%;
@@ -188,14 +189,10 @@ html {
 .produkatasan {
     display: none;
 }
-.produkkiri {
-    width: 40%;
-}
 .produkkiri img {
-    width: 86%;
-    padding-left: 39px;
+    width: 100%;
+    height: auto;
     margin-top: -80px;
-    height: 120%
 }
 .produkkanan {
     width: 60%;
