@@ -329,11 +329,61 @@ html {
 }
 
 @media (max-width: 480px) {
+    .bora1 {
+        display: inherit;
+        border-top: 4px solid #925818;
+        width: 45%
+    }
+    .bora2 {
+        display: inherit;
+        border-top: 4px solid #925818;
+        width: 20%;
+    }
+    .bora3 {
+        display: inherit;
+        border-top: 4px solid #925818;
+        width: 20%;
+    }
+    .bgcorak2 {
+        background-image: url(../img/corak2kiri.png);
+        background-size: 32vh;
+        background-position: 70vh 189vh;
+        background-repeat: no-repeat;
+    }
+    .bgcorak2 {
+        background-image: url(../img/corak2kiri.png);
+        background-size: 32vh;
+        background-position: 67vh 188vh;
+        background-repeat: no-repeat;
+    }
+    .bgcorak3 {
+        background-image: url(../img/corak2kiri.png);
+        background-size: 30vh;
+        background-position: -10vh 282vh;
+        background-repeat: no-repeat;
+    }
+    .bgcorak4 {
+        background-image: url(../img/corak2kiri.png);
+        background-size: 45vh;
+        background-position: 28vh 153vh;
+        background-repeat: no-repeat;
+    }
+
+
+    #coveratas {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
     .cover {
-        padding: 135px 0px 0px 21px;
         text-align: center;
+        padding: 0px;
         width: auto;
     }
+
     .cover h1 {
         font-size: 22px;
         padding: 0px 30px;
@@ -350,10 +400,11 @@ html {
         background-size: contain;
     }
     .sejarahatasan {
-        display: inherit;
+        display: flex;
+        flex-wrap: wrap;
         padding: 0px 47px;
         padding-top: 15px;
-        display: inherit;
+        justify-content: space-evenly;
     }
     .sejarahatasan h1{
         font-style: normal;
@@ -372,15 +423,11 @@ html {
     }
     .sejarahkiri {
         width: 100%;
-        padding-top: 50px;
         padding-bottom: 0px;
     }
     .sejarahkanan {
         width: 100%;
-        padding-top: 50px;
-        padding-left: 35px;
-        padding-right: 35px;
-        padding-bottom: 25px;
+        padding: 0px;
     }
 
     .sejarahkanan h1 {
@@ -391,18 +438,15 @@ html {
     }
     .sejarahkiri {
         width: 100%;
+        padding: 20px 0px;
     }
     .sejarahkiri img{
         padding-left: 58px;
     }
-    .sejarahkanan {
-        width: 100%;
-        padding-top: 50px;
-        padding-bottom: 25px;
-    }
     .sejarahkanan p {
-        padding: 0px;
-        font-size: 11px;
+        padding: 0px 30px;
+        line-height: 27px;
+        font-size: 13px;
     }
 
     /**--------------MAKNA--------**/
@@ -411,43 +455,73 @@ html {
         height: auto;
     }
     .maknatengah p {
-        padding:  0px 30px;
-        font-size: 11px;
+        padding: 0px 26px;
+        font-size: 13px;
+        width: auto;
+        line-height: 27px;
+        text-align: left;
     }
     .maknatengah h1 {
         display: none;
     }
+    .maknatengah {
+        padding: 0px;
+    }
+    .maknatengah {
+        padding: 0px;
+    }
+    .maknaatasan {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 15px;
+        flex-direction: column;
+        color: #925818;
+        align-items: center;
+    }
+    .maknaatasan  h1{
+        padding-top: 15px;
+    }
+    /**--------------JENIS--------**/
 
     #jenis {
         height: auto;
     }
     .jenisatasan {
-        display: inherit;
-        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .jenisatasan h1 {
         font-size: 26px;
+        padding-top: 20px;
         color: #925818;
     }
     .isijenis {
         flex-direction: column;
         height: auto;
+        padding-top: 15px;
     }
     .jeniskiri {
-        width: 100%;
+        width: auto;
     }
     .jeniskiri img {
-        padding: 0px 63px;
+        width: 88%;
+        padding: 30px 21px;
     }
     .jeniskanan {
         width: 100%;
         padding: 0px;
     }
     .jeniskanan p {
-        padding: 0px 70px;
-        font-size: 13px;
+        padding-left: 45px;
+        padding-right: 10px;
+        font-size: 14px;
+        line-height: 30px;
     }
     .jeniskanan h1 {
         display: none;
+    }
+    span {
+        padding-right: 10px;
     }
 }
