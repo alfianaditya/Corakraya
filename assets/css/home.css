@@ -503,7 +503,7 @@ html {
     .teknikkiri img {
         width: 75%;
         padding-left: 55px;
-        height: 112%;
+        height: auto;
         margin-top: -20px;
     }
     .teknikatasan h1{
