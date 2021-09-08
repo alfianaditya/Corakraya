@@ -135,12 +135,13 @@ html {
 }
 .teknikkiri {
     width: 50%;
+    height: auto;
     padding: 50px 0px;
 }
 .teknikkiri img {
     width: 75%;
     padding-left: 100px;
-    height: 85%;
+    height: auto;
     padding-top: 28px;
 }
 .teknikkanan {
