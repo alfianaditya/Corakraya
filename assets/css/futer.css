@@ -202,8 +202,8 @@
         width: 19%;
     }
     .bawah5 {
-        width: 100%;
-        padding: 75px 45px;
+        width: 85%;
+        padding: 75px 0px;
     }
     .gambar1 img {
         width: 30%;
@@ -214,6 +214,6 @@
         line-height: 25px;
     }
     .pencet {
-        margin: 10px 0px 0px 283px;
+        margin: 10px 0px 0px 254px;
     }
 }
