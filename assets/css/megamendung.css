@@ -546,11 +546,11 @@ html {
         padding-top: 15px;
     }
     .jeniskiri {
-        width: auto;
+        width: 100%;
     }
     .jeniskiri img {
         width: 88%;
-        padding: 30px 29px;
+        padding: 35px 29px;
     }
     .jeniskanan {
         width: 100%;
