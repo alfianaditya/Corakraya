@@ -126,9 +126,9 @@ html {
     display: none;
 }
 .maknatengah {
-    width: 100%;
+    width: auto;
     text-align: center;
-    padding: 35px 0px 0px 0px;
+    padding: 35px 50px 0px 50px;
 }
 .maknatengah h1{
     font-style: normal;
@@ -217,7 +217,7 @@ html {
         .bora3 {
             display: inherit;
             border-top: 4px solid #8A4704;
-            width: 18%;
+            width: 23%;
         }
 
         .bgcorak2 {
@@ -345,7 +345,6 @@ html {
             display: flex;
             flex-direction: column;
             align-items: center;
-            
         }
         .maknaatasan h1 {
             font-style: normal;
@@ -354,9 +353,13 @@ html {
             line-height: 57px;
             color: #8A4704;
         }
+        .maknatengah {
+            padding: 35px 50px 0px 60px;
+        }
         .maknatengah p{
             padding: 0px 54px;
             text-align: left;
+            padding: 0px;
         }
 
         .maknatengah h1 {
@@ -366,6 +369,7 @@ html {
         .jeniskanan p {
             padding: 0px 125px;
         }
+        
 }
 
 @media (max-width: 480px) {
