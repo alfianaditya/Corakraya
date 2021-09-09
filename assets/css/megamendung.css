@@ -235,7 +235,7 @@ html {
         .bgcorak4 {
             background-image: url(../img/corak2kiri.png);
             background-size: 45vh;
-            background-position: 107vh 429vh;
+            background-position: 123vh 460vh;
             background-repeat: no-repeat;
         }
         /**------------------SEJARAH-----------------**/
@@ -286,6 +286,7 @@ html {
         /**------------------JENIS-----------------**/
         #jenis {
             height: auto;
+            padding-bottom: 20%;
         }
         .jenisatasan {
             flex-direction: column;
@@ -529,6 +530,7 @@ html {
 
     #jenis {
         height: auto;
+        padding-bottom: 20%;
     }
     .jenisatasan {
         display: flex;

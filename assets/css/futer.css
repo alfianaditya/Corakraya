@@ -1,189 +1,219 @@
-.bawah_isi{
+#futer {
     height: auto;
-    display: flex;
-    background: #F3F0EC;
+    background:rgba(174, 129, 84, 0.07);
     box-shadow: 0px -6px 25px rgba(0, 0, 0, 0.25);
 }
-
-.bawah_isi h1 {
-    padding-bottom: 20px;
+.borafo {
+    border-top: 4px solid #8A4704;
+    width: 100%;
 }
-
-/**----------------------------------------**/
-
-.bawah1 {
-    width: 260px;
-    padding: 40px 0px;
-    margin-right: 75px;
-    margin-left: 70px;
-}
-.bawah1 h1 {
-    font-size: 18px;
-    font-family: 'Nunito', sans-serif;
+#futer a {
+    text-decoration: none;
     color: #4F4F4F;
-}
-.bawah1 p{
-    font-family: 'Roboto', sans-serif;
+    line-height: 38px;
     font-size: 16px;
-    line-height: 22px;
-    color: #4F4F4F;
-    
 }
-/**----------------------------------------**/
+.isifuter {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Nunito', sans-serif;
+    align-items: stretch;
+}
+.bawah1 {
+    width: 25%;
+    padding: 50px 1px 1px 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+.gambar1 img {
+    width: 65%;
+}
+.text1 p {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 25px;
+    padding-right: 25px;
+    font-size: 21px;
+    line-height: 30px;
+    color: #4F4F4FB5;
+}
 
 .bawah2 {
-    width: 110px;
-    padding: 40px 20px;
-}
-.bawah2 h1 {
-    font-family: 'Nunito', sans-serif;
-    color: #925818;
-    font-size: 23px;
-}
-.bawah2 ul {
-    list-style: none;
-}
-.bawah2 li{
-    font-family: 'Nunito', sans-serif;
+    width: 6%;
+    padding: 50px 1px 1px 1px;
+    font-style: normal;
+    font-weight: normal;
     font-size: 16px;
-    line-height: 30px;
-    color: #4F4F4F;
+    line-height: 18px;
 }
-.bawah2 a {
-    text-decoration: none;
-    color: black;
+
+.text2 h1 {
+    color: #8A4704;
 }
-/**----------------------------------------**/
 
 .bawah3 {
-    width: 155px;
-    padding: 40px 20px;
-}
-.bawah3 h1 {
-    font-family: 'Nunito', sans-serif;
-    color: #925818;
-    font-size: 23px;
-}
-.bawah3 ul {
-    list-style: none;
-}
-.bawah3 li{
-    font-family: 'Nunito', sans-serif;
+    width: 11%;
+    padding: 50px 1px 1px 1px;
+    font-style: normal;
+    font-weight: normal;
     font-size: 16px;
-    line-height: 30px;
-    color: #4F4F4F;
+    line-height: 18px;
 }
-.bawah3 a {
-    text-decoration: none;
-    color: black;
+.text3 h1 {
+    color: #8A4704;
 }
-/**----------------------------------------**/
+
 .bawah4 {
-    width: 90px;
-    padding: 40px 0px;
-    margin-right: 47px;
-    margin-left: 45px;
-}
-.bawah4 h1 {
-    font-family: 'Nunito', sans-serif;
-    color: #925818;
-    font-size: 23px;
-}
-.bawah4 ul {
-    list-style: none;
-}
-.bawah4 li{
-    font-family: 'Nunito', sans-serif;
+    width: 7%;
+    padding: 50px 1px 1px 1px;
+    font-style: normal;
+    font-weight: normal;
     font-size: 16px;
-    line-height: 30px;
-    color: #4F4F4F;
+    line-height: 18px;
 }
-.bawah4 a {
-    text-decoration: none;
-    color: black;
+.text4 h1 {
+    color: #8A4704;
 }
-/**----------------------------------------**/
 
 .bawah5 {
-    width: 295px;
-    padding: 40px 20px;
-    margin-left: 10px;
-    font-family: 'Nunito', sans-serif;
+    width: 30%;
+    padding: 50px 1px 1px 1px;
+    font-style: normal;
+    font-weight: normal;
     font-size: 16px;
-    line-height: 30px;
-    color: #4F4F4F;
+    line-height: 18px;
 }
-.bawah5 h1 {
-    color: #925818;
-    font-size: 23px;
+.text5 h1 {
+    color: #8A4704;
+}
+.text7 {
+        font-family: 'Nunito', sans-serif;
+        font-size: 10px;
+        line-height: 30px;
+        color: #4F4F4F;
+        text-align: center;
+        padding: 15px 0px;
 }
 
-/**----------------------------------------**/
-
-.bawah5 input {
-    padding-right: 109px;
+.nama {
+    margin: 35px 0px 0px 0px;
+    padding: 20px;
+    font-size: 14px;
+    color: var(--black);
+    border: 2px solid #CFCFCF;
+    background: #f7f7f7;
+    text-transform: none;
+    width: 90%;
+}
+.pesan {
+    padding: 20px;
+    font-size: 14px;
+    border: 2px solid #CFCFCF;
+    background: #f7f7f7;
+    text-transform: none;
+    width: 90%;
+    height: 30%;
+    margin: 15px 0px 0px 0px;
 }
 
-.bawah5 button[type="submit"]{
-    width: 100px;
-    border: none;
-    outline: none;
-    padding: 11px;
-    margin-left: 165px;
-    font-size: 10px;
-    color: white;
+.pencet {
+    margin: 10px 0px 0px 281px;
+    padding: 14px 40px;
+    font-size: 12px;
+    background: #925818;
     cursor: pointer;
-    margin-top: 10px;
-    transition: .3s ease;
-    background-color: #925818;
-}
-.bawah6 {
-    font-family: 'Nunito', sans-serif;
-    font-size: 10px;
-    line-height: 30px;
-    color: #4F4F4F;
-    text-align: center;
-    padding: 15px 0px;
-    background: rgba(174, 129, 84, 0.07);
-
-}
-.bor2 {
-    border-top: 1px solid #925818;
-}
-.three {
-    display: flex;
+    border: none;
+    color: white;
 }
 
-@media only screen and (max-width: 480) {
-    #bawah {
-        width: 100%;
-    }
-    .bawah_isi {
-        display: inherit;
-        height: auto;
-    }
-    .bor1 {
-        margin-inline:70px ;
-        border-top: 1px solid #925818;
-    }
-    .bawah1 p {
-        width: 290px;
-    }
-    .three {
+@media (min-width: 481px) and (max-width: 768px) {
+    .isifuter {
         display: flex;
+        flex-wrap: wrap;
+        font-family: 'Nunito', sans-serif;
+    }
+    .bawah1 {
+        width: 100%;
+        padding: 50px 1px 1px 30px;
     }
     .bawah2 {
-        width: 115px;
-        padding: 40px 40px 40px 70px;
+        display: flex;
+        justify-content: center;
+        width: 33%;
     }
     .bawah3 {
-        width: 200px;
-        padding: 40px 0px 40px 25px;
+        display: flex;
+        justify-content: center;
+        width: 33%;
     }
     .bawah4 {
-        padding: 40px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+        width: 33%;
     }
     .bawah5 {
         width: 100%;
+    }
+    .gambar1 img {
+        width: 30%;
+        padding: 0px 35px;
+    }
+    .text1 p {
+        padding-left: 35px;
+        padding-right: 309px;
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 480px) {
+    .isifuter {
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Nunito', sans-serif;
+    }
+    #futer a {
+        line-height: 30px;
+    }
+    .nama {
+        width: 100%;
+    }
+    .pesan {
+        width: 100%;
+    }
+    .bawah1 {
+        width: 100%;
+        padding: 50px 1px 1px 30px;
+    }
+    .bawah2 {
+        display: flex;
+        justify-content: center;
+        width: 18%;
+    }
+    .bawah3 {
+        display: flex;
+        justify-content: center;
+        width: 31%;
+    }
+    .bawah4 {
+        display: flex;
+        justify-content: center;
+        width: 19%;
+    }
+    .bawah5 {
+        width: 100%;
+        padding: 75px 45px;
+    }
+    .gambar1 img {
+        width: 30%;
+    }
+    .text1 p {
+        padding-right: 150px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .pencet {
+        margin: 10px 0px 0px 283px;
     }
 }

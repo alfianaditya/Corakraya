@@ -6,6 +6,7 @@
 
 .isikartu {
     display: flex;
+    padding-bottom: 8%;
     position: relative;
     height: auto;
     font-family: 'Nunito', sans-serif;
