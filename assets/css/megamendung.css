@@ -20,19 +20,19 @@ html {
 .bgcorak2 {
     background-image: url(../img/corakkanan.png);
     background-size: 43vh;
-    background-position: 215vh 163vh;
+    background-position: 227vh 189vh;
     background-repeat: no-repeat;
 }
 .bgcorak3 {
     background-image: url(../img/corakkiri.png);
     background-size: 34vh;
-    background-position: 0vh 72vh;
+    background-position: 0vh 330vh;
     background-repeat: no-repeat;
 }
 .bgcorak4 {
     background-image: url(../img/corakkanan.png);
-    background-size: 45vh;
-    background-position: 211vh 153vh;
+    background-size: 39vh;
+    background-position: 227vh 423vh;
     background-repeat: no-repeat;
 }
 #coveratas {
@@ -42,9 +42,14 @@ html {
     background-color: #000000BD;
     background-blend-mode:soft-light;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 .cover{
-    padding: 155px 0px 0px 0px;
     color:  white;
     position: relative;
     width: 100%;
@@ -92,12 +97,12 @@ html {
     font-weight: bold;
     font-size: 38px;
     line-height: 57px;
-    color: #925818;
+    color:#8A4704;
 }
 .sejarahkanan p{
-    padding-right: 105px;
+    padding-right: 42px;
     font-style: normal;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 30px;
     color: #4F4F4F;
 }
@@ -107,7 +112,7 @@ html {
 /**----------------MAKNA----------------**/
 
 #makna {
-    height: 100%;
+    height: 70%;
     padding-top: 85px;
     background:rgba(174, 129, 84, 0.07);
 }
@@ -130,13 +135,13 @@ html {
     font-weight: bold;
     font-size: 38px;
     line-height: 57px;
-    color: #925818;
+    color: #8A4704;
 }
 .maknatengah p{
-    padding: 0px 286px;
+    padding: 0px 239px;
     font-style: normal;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 20px;
+    line-height: 30px;
     color: #4F4F4F;
 }
 .bora1 {
@@ -145,11 +150,11 @@ html {
 .bora2 {
     display: none;
 }
-/* .bora3 {
+.bora4 {
     display: inherit;
-    border-top: 4px solid #925818;
+    border-top: 4px solid #8A4704;
     margin: 0px 645px;
-} */
+}
 /**----------------------------JENIS--------------------------**/
 
 #jenis {
@@ -176,14 +181,14 @@ html {
 }
 .jeniskanan {
     width: 45%;
-    padding: 10px 0px 30px 25px;
+    padding: 10px 0px 30px 75px;
 }
 .jeniskanan h1{
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 20px;
-    color: #925818;
+    color:#8A4704;
 }
 .jeniskanan p{
     padding-right: 125px;
@@ -194,33 +199,43 @@ html {
 }
 
 .nomor {
-    color: #925818;
+    color:#8A4704;
     font-weight: bold;
 }
 @media (min-width: 481px) and (max-width: 768px) {
 
         .bora1 {
             display: inherit;
-            border-top: 4px solid #925818;
+            border-top: 4px solid #8A4704;
             width: 45%;
         }        
         .bora2 {
             display: inherit;
-            border-top: 4px solid #925818;
-            width: 45%;
+            border-top: 4px solid #8A4704;
+            width: 18%;
+        }
+        .bora3 {
+            display: inherit;
+            border-top: 4px solid #8A4704;
+            width: 18%;
         }
 
         .bgcorak2 {
-            background-image: url(../img/corakkanan.png);
+            background-image: url(../img/corak2kiri.png);
             background-size: 43vh;
-            background-position: 130vh 223vh;
+            background-position: 109vh 220vh;
             background-repeat: no-repeat;
         }
-
+        .bgcorak3 {
+            background-image: url(../img/corak2kiri.png);
+            background-size: 40vh;
+            background-position: -11vh 312vh;
+            background-repeat: no-repeat;
+        }
         .bgcorak4 {
             background-image: url(../img/corak2kiri.png);
-            background-size: 63vh;
-            background-position: 111vh 99vh;
+            background-size: 45vh;
+            background-position: 107vh 429vh;
             background-repeat: no-repeat;
         }
         /**------------------SEJARAH-----------------**/
@@ -248,7 +263,7 @@ html {
         .sejarahkiri img {
             width: 65%;
             padding-left: 135px;
-            height: 112%;
+            height: 100%;
         }
         .sejarahkanan {
             width: 100%;
@@ -258,13 +273,14 @@ html {
         .sejarahkanan p {
             font-size: 18px;
             padding: 0px 92px;
+            text-align: left;
         }
         .sejarahatasan h1{
             font-style: normal;
             font-weight: bold;
             font-size: 36px;
             line-height: 57px;
-            color: #925818;
+            color: #8A4704;
         }
 
         /**------------------JENIS-----------------**/
@@ -272,6 +288,8 @@ html {
             height: auto;
         }
         .jenisatasan {
+            flex-direction: column;
+        align-items: center;
             display: inherit;
             padding: 0px 47px;
             padding-top: 15px;
@@ -281,7 +299,7 @@ html {
             font-weight: bold;
             font-size: 26px;
             line-height: 57px;
-            color: #925818;
+            color: #8A4704;
         }
         .jeniskanan h1 {
             display: none;
@@ -292,12 +310,17 @@ html {
             justify-content: center;
         }
         .jeniskiri {
-            width: 100%;
+            width: auto;
+            height: 80%;
         }
         .jeniskiri img {
-            width: 80%;
-            padding-left: 75px;
-            height: 112%;
+            width: 100%;
+            padding: 0px 0px;
+            padding-top: 35px;
+            height: 100%;
+        }
+        .isijenis {
+            height: auto;
         }
         .jeniskanan {
             width: 100%;
@@ -315,12 +338,29 @@ html {
             font-weight: bold;
             font-size: 36px;
             line-height: 57px;
-            color: #925818;
+            color: #8A4704;
         }
         /**----------------MAKNA----------------**/
+        .maknaatasan {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        .maknaatasan h1 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 38px;
+            line-height: 57px;
+            color: #8A4704;
+        }
         .maknatengah p{
-            padding: 0px 20px;
-            padding: 0px 88px;
+            padding: 0px 54px;
+            text-align: left;
+        }
+
+        .maknatengah h1 {
+            display: none;
         }
         /**----------------JENIS----------------**/
         .jeniskanan p {
@@ -331,18 +371,24 @@ html {
 @media (max-width: 480px) {
     .bora1 {
         display: inherit;
-        border-top: 4px solid #925818;
+        border-top: 4px solid #8A4704;
         width: 45%
     }
     .bora2 {
         display: inherit;
-        border-top: 4px solid #925818;
+        border-top: 4px solid #8A4704;
         width: 20%;
     }
     .bora3 {
         display: inherit;
-        border-top: 4px solid #925818;
+        border-top: 4px solid #8A4704;
         width: 20%;
+    }
+    .bgcorak {
+        background-image: url(../img/corak2kiri.png);
+        background-size: 30vh;
+        background-position: -10vh 100vh;
+        background-repeat: no-repeat;
     }
     .bgcorak2 {
         background-image: url(../img/corak2kiri.png);
@@ -350,22 +396,16 @@ html {
         background-position: 70vh 189vh;
         background-repeat: no-repeat;
     }
-    .bgcorak2 {
-        background-image: url(../img/corak2kiri.png);
-        background-size: 32vh;
-        background-position: 67vh 188vh;
-        background-repeat: no-repeat;
-    }
     .bgcorak3 {
         background-image: url(../img/corak2kiri.png);
-        background-size: 30vh;
-        background-position: -10vh 282vh;
+        background-size: 29vh;
+        background-position: -10vh 269vh;
         background-repeat: no-repeat;
     }
     .bgcorak4 {
         background-image: url(../img/corak2kiri.png);
-        background-size: 45vh;
-        background-position: 28vh 153vh;
+        background-size: 34vh;
+        background-position: 65vh 375vh;
         background-repeat: no-repeat;
     }
 
@@ -411,7 +451,7 @@ html {
         font-weight: bold;
         font-size: 26px;
         line-height: 57px;
-        color: #925818;
+        color: #8A4704;
     }
     .sejarahkanan h1 {
         display: none;
@@ -475,7 +515,7 @@ html {
         flex-wrap: wrap;
         padding-top: 15px;
         flex-direction: column;
-        color: #925818;
+        color: #8A4704;
         align-items: center;
     }
     .maknaatasan  h1{
@@ -494,7 +534,7 @@ html {
     .jenisatasan h1 {
         font-size: 26px;
         padding-top: 20px;
-        color: #925818;
+        color: #8A4704;
     }
     .isijenis {
         flex-direction: column;
@@ -506,14 +546,14 @@ html {
     }
     .jeniskiri img {
         width: 88%;
-        padding: 30px 21px;
+        padding: 30px 29px;
     }
     .jeniskanan {
         width: 100%;
         padding: 0px;
     }
     .jeniskanan p {
-        padding-left: 45px;
+        padding-left: 30px;
         padding-right: 10px;
         font-size: 14px;
         line-height: 30px;
