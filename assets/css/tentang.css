@@ -1,0 +1,195 @@
+/**## BOR= GARIS PC ##**/
+/**## BER= BR PC ONLY##**/
+/**## BORA= GARIS ANDROID ONLY##**/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* .br {
+    background:rgba(174, 129, 84, 0.07);
+} */
+.bgcorak {
+    background-color: #E5E5E5;
+    border: 7px solid #92581838;    background-image: url(../img/corakkiri.png);
+    background-size: 34vh;
+    background-position: 0vh 92vh;
+    background-repeat: no-repeat;
+}
+.bgcorak2 {
+    background-image: url(../img/corakkanan.png);
+    background-size: 43vh;
+    background-position: 215vh 163vh;
+    background-repeat: no-repeat;
+}
+.bgcorak3 {
+    background-image: url(../img/corakkiri.png);
+    background-size: 34vh;
+    background-position: 0vh 72vh;
+    background-repeat: no-repeat;
+}
+.bgcorak4 {
+    background-image: url(../img/corakkanan.png);
+    background-size: 45vh;
+    background-position: 211vh 153vh;
+    background-repeat: no-repeat;
+}
+#coveratas {
+    background-image: url(../img/coverkarya.png);
+    background-size: cover;
+    height: 100%;
+    background-blend-mode:soft-light;
+    text-align: center;
+}
+.sumber{
+    text-align: center;
+}
+.sumber h1{
+    padding: 200px 0 0 0;
+    color: #8A4704;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 52px;
+}
+.mengapa{
+    text-align: center;
+}
+.mengapa h1{
+    font-family: Nunito Sans;
+    color: #8A4704;
+    font-size: 42px;
+    line-height: 52px;
+    padding: 150px 0 0 0;
+}
+.mengapa p{
+    padding: 100px 300px 0 300px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+}
+.cover{
+    padding: 300px 0px 0px 0px;
+    color:  white;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+.cover h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Nunito', sans-serif;
+}
+.bor1 {
+    margin: 10px 0 0 620px;
+    text-align: center;
+    border-bottom: 4px solid #925818;
+    width: 12%;
+}
+.bor2 {
+    margin: 10px 0 0 630px;
+    text-align: center;
+    border-bottom: 4px solid #925818;
+    width: 12%;
+}
+.linkkiri{
+    padding: 15px 0 15px 0;
+}
+.linkkanan{
+    padding: 15px 0 11px 0;
+}
+.linksumber{
+    padding: 150px 0 0 250px ;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.titel{
+    /* text-decoration: none; */
+    font-family: Nunito Sans;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 26px;
+}
+.q p{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    padding-bottom: 2px;
+}
+.p p{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    padding-bottom: 2px;
+}
+.kontener1{
+    flex: 30%;
+}
+.kontener2{
+    margin-left: 75px;
+    flex: 50%;
+}
+a:link {
+    color: black;
+    /* text-decoration: none; */
+}
+a:visited {
+    color: black;
+    /* text-decoration: none; */
+}
+a:hover {
+    color: black;
+    /* text-decoration: underline; */
+}
+a:active {
+    color: black;
+    /* text-decoration: underline; */
+}
+@media (min-width: 481px) and (max-width: 768px) {
+
+        .bora1 {
+            display: inherit;
+            border-top: 4px solid #925818;
+            width: 45%;
+        }        
+        .bora2 {
+            display: inherit;
+            border-top: 4px solid #925818;
+            width: 45%;
+        }
+
+        .bgcorak2 {
+            background-image: url(../img/corakkanan.png);
+            background-size: 43vh;
+            background-position: 130vh 223vh;
+            background-repeat: no-repeat;
+        }
+
+        .bgcorak4 {
+            background-image: url(../img/corak2kiri.png);
+            background-size: 63vh;
+            background-position: 111vh 99vh;
+            background-repeat: no-repeat;
+        }
+}
+
+@media (max-width: 480px) {
+    .cover {
+        padding: 135px 0px 0px 21px;
+        text-align: center;
+        width: auto;
+    }
+    .cover h1 {
+        font-size: 22px;
+        padding: 0px 30px;
+    }
+    .cover p {
+        display: inherit;
+        font-size: 10px;
+        padding: 0px 70px;
+    }
+}
