@@ -4,8 +4,7 @@
     box-shadow: 0px -6px 25px rgba(0, 0, 0, 0.25);
 }
 .borafo {
-    border-top: 4px solid #8A4704;
-    width: 100%;
+    border-top: 1px solid #8A4704;
 }
 #futer a {
     text-decoration: none;
@@ -19,6 +18,7 @@
     justify-content: space-around;
     font-family: 'Nunito', sans-serif;
     align-items: stretch;
+    padding-bottom: 35px;
 }
 .bawah1 {
     width: 25%;
@@ -134,6 +134,11 @@
         flex-wrap: wrap;
         font-family: 'Nunito', sans-serif;
     }
+    .borafo {
+        border-top: 2px solid #8A4704;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
     .bawah1 {
         width: 100%;
         padding: 50px 1px 1px 30px;
@@ -154,7 +159,11 @@
         width: 33%;
     }
     .bawah5 {
-        width: 100%;
+        width: 85%;
+        padding: 75px 0px;
+    }
+    .text5 {
+        padding-left: 10%;
     }
     .gambar1 img {
         width: 30%;
@@ -173,8 +182,14 @@
         flex-wrap: wrap;
         font-family: 'Nunito', sans-serif;
     }
+    .borafo {
+        border-top: 2px solid #8A4704;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
     #futer a {
         line-height: 30px;
+        font-size: 15px;
     }
     .nama {
         width: 100%;
@@ -191,15 +206,24 @@
         justify-content: center;
         width: 18%;
     }
+    .bawah2 h1 {
+        font-size: 15px;
+    }
     .bawah3 {
         display: flex;
         justify-content: center;
-        width: 31%;
+        width: 37%;
+    }
+    .bawah3 h1 {
+        font-size: 15px;
     }
     .bawah4 {
         display: flex;
         justify-content: center;
         width: 19%;
+    }    
+    .bawah4 h1 {
+        font-size: 15px;
     }
     .bawah5 {
         width: 85%;
