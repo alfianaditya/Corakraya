@@ -19,8 +19,8 @@ html {
 }
 .bgcorak2 {
     background-image: url(../img/corakkanan.png);
-    background-size: 38vh;
-    background-position: 211vh 187vh;
+    background-size: 43vh;
+    background-position: 227vh 189vh;
     background-repeat: no-repeat;
 }
 .bgcorak3 {
@@ -36,7 +36,7 @@ html {
     background-repeat: no-repeat;
 }
 #coveratas {
-    background-image: url(../img/tujuhrupacover.png);
+    background-image: url(../img/megamendungcover.png);
     background-size: cover;
     height: 100%;
     background-color: #000000BD;
@@ -100,7 +100,7 @@ html {
     color:#8A4704;
 }
 .sejarahkanan p{
-    padding-right: 97px;
+    padding-right: 42px;
     font-style: normal;
     font-size: 20px;
     line-height: 30px;
@@ -113,7 +113,7 @@ html {
 
 #makna {
     height: 70%;
-    padding-top: 20px;
+    padding-top: 85px;
     background:rgba(174, 129, 84, 0.07);
 }
 .isimakna {
@@ -126,9 +126,9 @@ html {
     display: none;
 }
 .maknatengah {
-    width: 100%;
+    width: auto;
     text-align: center;
-    padding: 35px 0px 0px 0px;
+    padding: 35px 50px 0px 50px;
 }
 .maknatengah h1{
     font-style: normal;
@@ -138,10 +138,10 @@ html {
     color: #8A4704;
 }
 .maknatengah p{
-    padding: 0px 286px;
+    padding: 0px 239px;
     font-style: normal;
     font-size: 20px;
-    line-height: 26px;
+    line-height: 30px;
     color: #4F4F4F;
 }
 .bora1 {
@@ -217,7 +217,7 @@ html {
         .bora3 {
             display: inherit;
             border-top: 4px solid #8A4704;
-            width: 18%;
+            width: 23%;
         }
 
         .bgcorak2 {
@@ -268,11 +268,11 @@ html {
         .sejarahkanan {
             width: 100%;
             text-align: center;
-            padding: 0px 50px;
+            padding: 0px;
         }
         .sejarahkanan p {
             font-size: 18px;
-            padding: 0px 35px;
+            padding: 0px 92px;
             text-align: left;
         }
         .sejarahatasan h1{
@@ -289,7 +289,7 @@ html {
         }
         .jenisatasan {
             flex-direction: column;
-            align-items: center;
+        align-items: center;
             display: inherit;
             padding: 0px 47px;
             padding-top: 15px;
@@ -345,7 +345,6 @@ html {
             display: flex;
             flex-direction: column;
             align-items: center;
-            
         }
         .maknaatasan h1 {
             font-style: normal;
@@ -354,18 +353,13 @@ html {
             line-height: 57px;
             color: #8A4704;
         }
-        #makna {
-            padding-top: 100px;
-        }
         .maknatengah {
-            width: auto;
-            padding: 0px 50px;
+            padding: 35px 50px 0px 60px;
         }
         .maknatengah p{
-            padding: 0px 27px;
-            padding-top: 8px;
-            line-height: 30px;
+            padding: 0px 54px;
             text-align: left;
+            padding: 0px;
         }
 
         .maknatengah h1 {
@@ -375,6 +369,7 @@ html {
         .jeniskanan p {
             padding: 0px 125px;
         }
+        
 }
 
 @media (max-width: 480px) {
@@ -402,7 +397,7 @@ html {
     .bgcorak2 {
         background-image: url(../img/corak2kiri.png);
         background-size: 32vh;
-        background-position: 70vh 188vh;
+        background-position: 70vh 189vh;
         background-repeat: no-repeat;
     }
     .bgcorak3 {
@@ -493,7 +488,7 @@ html {
         padding-left: 58px;
     }
     .sejarahkanan p {
-        padding: 0px 25px;
+        padding: 0px 30px;
         line-height: 27px;
         font-size: 13px;
     }
@@ -501,7 +496,6 @@ html {
     /**--------------MAKNA--------**/
     #makna {
         width: 100%;
-        padding-top: 70px;
         height: auto;
     }
     .maknatengah p {
@@ -552,11 +546,12 @@ html {
         padding-top: 15px;
     }
     .jeniskiri {
-        width: auto;
+        width: 100%;
+        padding: 20px 0px;
     }
     .jeniskiri img {
-        width: 88%;
-        padding: 30px 29px;
+        width: 70%;
+        padding-left: 15%;
     }
     .jeniskanan {
         width: 100%;
