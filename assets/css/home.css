@@ -31,15 +31,15 @@ html {
 }
 
 .header.active {
-    position: fixed;
+    /* position: fixed;
     top:0; left:0; right: 0;
     z-index: 1000;
     box-shadow: var(--box-shadow);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:2rem 9%;
-    background-color: #fff;
+    padding:2rem 9%; */
+    background-color: var(--main-color);
 }
 
 .header .logo{
@@ -115,13 +115,14 @@ html {
 
 #asal {
     height: auto;
-    background-color:  #E5E5E5;
+    background: rgba(174, 129, 84, 0.07);
 }
 .isiasal {
     width: 100%;
     height: auto;
     position: relative;
     display: flex;
+
     font-family: 'Nunito', sans-serif;
 }
 .asalatasan {
@@ -156,31 +157,11 @@ html {
     color: #4F4F4F;
 }
 
-/**----------------------------Jenis--------------------------**/
-#jenis {
-    height: auto;
-    background-color:  #E5E5E5;
-}
-.isijenis {
-    width: 100%;
-    height: auto;
-    position: relative;
-}
-.jeniskartu {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0px 180px;
-}
-.jenisatas {
-    text-align: center;
-    display: none;
-}
-
 /**------------------TEKNIK------------------------------------**/
 
 #teknik {
     height: auto;
-    background-color:  #E5E5E5;
+    background: rgba(174, 129, 84, 0.07);
 }
 .teknikisi {
     width: 100%;
@@ -233,7 +214,7 @@ html {
 /**------------------------PPRODUK------------------**/
 #produk {
     height: 80%;
-    background-color:  #E5E5E5;
+    background: rgba(174, 129, 84, 0.07);
     padding: 75px 90px;
     padding-bottom: 0px;
 }
