@@ -1,9 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300&display=swap');
+
+:root{
+    --main-color:#925818;
+    --black:#555;
+    --light-color:#777;
+    --bg:#F3F0EC;
+    --border:.1rem solid rgba(0,0,0,.1);
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
 * {
     margin: 0px;
+    text-decoration: none;
     padding: 0px;
 }
 html {
     scroll-behavior: smooth;
+}
+
+.header{
+    position: fixed;
+    top:0; left:0; right: 0;
+    z-index: 1000;
+    background-color:transparent;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem 9%;
+}
+
+.header.active {
+    position: fixed;
+    top:0; left:0; right: 0;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem 9%;
+    background-color: #fff;
+}
+
+.header .logo{
+    font-size: 2.5rem;
+    color:var(--black);
+    font-weight: bolder;
+}
+
+.header .navbar a{
+    font-size: 1.7rem;
+    color: var(--light-color);
+    margin-left: 2rem;
+}
+
+.header .navbar a:hover{
+    color:var(--main-color);
 }
 #coveratas {
     background-image: url(../img/HeroImageWeb.png);
@@ -21,9 +73,13 @@ html {
 .cover h1 {
     font-size: 40px;
     font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    padding-right: 115px;
 }
 .cover p {
-    font-size: 14px;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-right: 232px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
@@ -42,15 +98,16 @@ html {
     border-radius: 5px;
 }
 
-.pencet {
+.pencetcover {
     background: white;
     color: #925818;
     font-weight: bold;
     font-family: 'Nunito', sans-serif;
     border: 2px solid white;
+    margin-top: 25px;
 }
 .pencet:hover {
-    background-color:#925818;
+    background-color: #252421;
     color: white;
 }
 
@@ -175,7 +232,7 @@ html {
 
 /**------------------------PPRODUK------------------**/
 #produk {
-    height: auto;
+    height: 80%;
     background-color:  #E5E5E5;
     padding: 75px 90px;
     padding-bottom: 0px;
@@ -258,30 +315,34 @@ html {
     border-radius: 5px;
 }
 
-.pencet1 {
-    background: white;
-    color: #925818;
-    font-weight: bold;
-    font-family: 'Nunito', sans-serif;
-    border: 2px solid white;
-}
-.pencet1:hover {
-    background-color:#925818;
-    color: white;
-}
+
 @media (min-width: 481px) and (max-width: 768px) {
     .cover {
         text-align: center;
         width: auto;
-        padding: 135px 0px 0px 21px;
+        padding: 135px 0px 0px 0px;
     }
     .cover h1 {
         font-size: 40px;
-        padding: 0px 60px;
+        padding: 0px 85px;
     }
     .cover p {
-        padding: 0px 175px;
+        padding: 0px 160px;
         display: inherit;
+        padding-top: 20px;
+    }
+    .pencet {
+        background: #252421;
+        margin: 10px 0px 0px 0px;
+        color: #925818;
+        font-weight: bold;
+        font-family: 'Nunito', sans-serif;
+        border: 2px solid white;
+        margin-top: 25px;
+    }
+    .pencet:hover {
+        background-color: white;
+        color: black;
     }
     /**------------------ASAL-----------------**/
     #asal {
@@ -383,6 +444,7 @@ html {
     /**------------------------------PRODUK---------------------------------**/
     #produk {
         padding: 75px 50px 0px 50px;
+        height: auto;
     }
     .produkatasan {
         width: 87%;
@@ -423,10 +485,13 @@ html {
         font-size: 10px;
         padding: 0px 70px;
     }
-
+    .pencetcover {
+        margin: 10px 0px 0px 0px;
+    }
     /**------------------ASAL-----------------**/
     #asal {
         height: auto;
+        padding-bottom: 45px;
     }
     .asalatasan {
         padding: 0px 47px;
@@ -530,6 +595,8 @@ html {
     /**-----------------------------PRODUK-------------------**/
     #produk {
         padding: 75px 35px 0px 35px;
+        height: auto;
+        padding-bottom: 45px;
     }
     .produkatasan {
         width: 80%;
