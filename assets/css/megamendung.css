@@ -14,6 +14,10 @@ html {
 .text.show-more .moreText {
     display: inline;
 }
+.read-more-btn {
+    border: none;
+    
+}
 /* .br {
     background:rgba(174, 129, 84, 0.07);
 } */
