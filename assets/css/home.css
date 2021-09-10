@@ -116,6 +116,7 @@ html {
 }
 .jenisatas {
     text-align: center;
+    display: none;
 }
 
 /**------------------TEKNIK------------------------------------**/

@@ -8,6 +8,12 @@
 html {
     scroll-behavior: smooth;
 }
+.moreText {
+    display: none;
+}
+.text.show-more .moreText {
+    display: inline;
+}
 /* .br {
     background:rgba(174, 129, 84, 0.07);
 } */
