@@ -147,7 +147,7 @@ html, body{
     padding-top: 10rem;
     background:var(--bg);
     position: relative;
-}
+    }
 
 .home .content{
     flex:1 1 45rem;
@@ -175,21 +175,21 @@ html, body{
 }
 
 .gambar {
-    background-image: url(../img/HeroImageWeb.png);
+    background-image: url(../img/coverkarya.png);
     background-size: cover;
-    width: 100%;
     height: 100%;
-    display: flex;
+    background-blend-mode:soft-light;
+    text-align: center;
 }
 
 .coper{
-    width: 50%;
-    padding-top: 50%;
+    width: 100%;
+    /* padding-top: 50%; */
     justify-content: center;
 
     font-family: 'Nunito', sans-serif;
     color:  white;
-    font-weight: 300;
+    /* font-weight: 300; */
 }
 
 .coper h1 {

@@ -2,5 +2,5 @@ megamendung readmore
 footer pesan
 kinton
 corakraya
-navbar all
+navbar all  
 share link

@@ -18,6 +18,16 @@
 html {
     scroll-behavior: smooth;
 }
+.moreText {
+    display: none;
+}
+.text.show-more .moreText {
+    display: inline;
+}
+.read-more-btn {
+    border: none;
+    
+}
 /* .br {
     background:rgba(174, 129, 84, 0.07);
 } */
@@ -87,7 +97,7 @@ header{
     background-repeat: no-repeat;
 }
 #coveratas {
-    background-image: url(../img/megamendungcover.png);
+    background-image: url(../img/sidocover.png);
     background-size: cover;
     height: 100%;
     background-color: #000000BD;
@@ -157,8 +167,25 @@ header{
     line-height: 30px;
     color: #4F4F4F;
 }
+.sejarahtengah{
+    text-align: center;
+}
+.sejarahtengah h1{
+    color:#8A4704;
+    font-size: 35px;
+}
+.sejarahtengah p{
+    padding: 0 300px 0 300px;
+    color: #4F4F4F
+}
 .bora1 {
     display: none;
+}
+    
+.bora2 {
+    display: inherit;
+    border-top: 4px solid #8A4704;
+    width: 18%;
 }
 /**----------------MAKNA----------------**/
 
@@ -254,7 +281,9 @@ header{
     font-weight: bold;
 }
 @media (min-width: 481px) and (max-width: 768px) {
-
+        .ber {
+            display: none;
+        }
         .bora1 {
             display: inherit;
             border-top: 4px solid #8A4704;
@@ -286,7 +315,7 @@ header{
         .bgcorak4 {
             background-image: url(../img/corak2kiri.png);
             background-size: 45vh;
-            background-position: 107vh 429vh;
+            background-position: 123vh 460vh;
             background-repeat: no-repeat;
         }
         /**------------------SEJARAH-----------------**/
@@ -337,6 +366,7 @@ header{
         /**------------------JENIS-----------------**/
         #jenis {
             height: auto;
+            padding-bottom: 20%;
         }
         .jenisatasan {
             flex-direction: column;
@@ -424,6 +454,9 @@ header{
 }
 
 @media (max-width: 480px) {
+    .ber {
+        display: none;
+    }
     .bora1 {
         display: inherit;
         border-top: 4px solid #8A4704;
@@ -580,6 +613,7 @@ header{
 
     #jenis {
         height: auto;
+        padding-bottom: 20%;
     }
     .jenisatasan {
         display: flex;
