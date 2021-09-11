@@ -73,17 +73,24 @@
 
 
 @media (min-width: 481px) and (max-width: 768px) {
-    #jenis {
-        display: none;
+    .isijenis {
+        width: 90%;
     }
-    #jenis {
-        display: none;
+    .jeniskartu {
+        padding: 0px;
     }
 }
 
 
 @media (max-width: 480px)  {
-    #jenis {
-        display: none;
+    .isijenis {
+        width: 100%;
+    }
+    .jeniskartu {
+        width: 200px;
+        margin: 10px;
+    }
+    .jenisatas h1 {
+        font-size: 25px;
     }
 }

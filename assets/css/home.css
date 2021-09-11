@@ -16,7 +16,6 @@
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    text-transform: capitalize;
     transition: all .3s ease-out;
 }
 html{
@@ -186,15 +185,15 @@ html, body{
     border-radius: 5px;
 }
 
-.pencetcover {
-    color: transparent;
+.pencetcover1 {
     color: white;
     font-weight: bold;
     font-family: 'Nunito', sans-serif;
     border: 2px solid white;
     margin-top: 25px;
+    background-color: transparent;
 }
-.pencetcover:hover {
+.pencetcover1:hover {
     background-color: white;
     color: black;
 }
@@ -374,7 +373,8 @@ html, body{
 }
 .tombol1 {
     border: none;
-    color: white;
+    color:  #925818;
+    font-weight: bolder;
     padding: 13px 53px;
     text-align: center;
     text-decoration: none;
@@ -384,6 +384,11 @@ html, body{
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 5px;
+}
+.tombol1:hover {
+    background-color: #925818;
+    color: white;
+    border: 1px solid #fff;
 }
 
 
