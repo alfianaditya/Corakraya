@@ -5,21 +5,22 @@
 }
 
 .isijenis {
-    width: auto;
+    width: 60%;
     display: flex;
     height: auto;
-    position: relative;
     font-family: 'Nunito', sans-serif;
     flex-wrap: wrap;
     justify-content: center;
+    margin: auto;
+    flex-direction: row;
 }
 .jeniskartu {
     background: #FFFFFF;
-    box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.34);
+    box-shadow: 0px 4px 28px rgb(0 0 0 / 34%);
     border-radius: 3px;
     line-height: 110px;
-    width: 17%;
-    margin:10px;
+    width: 250px;
+    margin: 22px;
 }
 .jeniskartu img {
     width: 100%;
