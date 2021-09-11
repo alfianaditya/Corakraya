@@ -105,7 +105,7 @@
     border: 2px solid #CFCFCF;
     background: #f7f7f7;
     text-transform: none;
-    width: 90%;
+    width: 100%;
 }
 .pesan {
     padding: 20px;
@@ -113,18 +113,18 @@
     border: 2px solid #CFCFCF;
     background: #f7f7f7;
     text-transform: none;
-    width: 90%;
+    width: 100%;
     height: 30%;
     margin: 15px 0px 0px 0px;
 }
 
 .pencet {
-    margin: 10px 0px 0px 281px;
     padding: 14px 40px;
     font-size: 12px;
     background: #925818;
     cursor: pointer;
     border: none;
+    margin-top: 10px;
     color: white;
 }
 

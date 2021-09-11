@@ -1,6 +1,18 @@
 /**## BOR= GARIS PC ##**/
 /**## BER= BR PC ONLY##**/
 /**## BORA= GARIS ANDROID ONLY##**/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300&display=swap');
+
+:root{
+    --main-color:#925818;
+    --black:#555;
+    --light-color:#777;
+    --bg:#F3F0EC;
+    --border:.1rem solid rgba(0,0,0,.1);
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -8,12 +20,60 @@
 html {
     scroll-behavior: smooth;
 }
+.moreText {
+    display: none;
+}
+.text.show-more .moreText {
+    display: inline;
+}
+.read-more-btn {
+    border: none;
+    
+}
+
+.header{
+    position: fixed;
+    top:0; left:0; right: 0;
+    z-index: 1000;
+    background-color:transparent;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem 9%;
+}
+
+.header.active {
+    position: fixed;
+    top:0; left:0; right: 0;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem 9%;
+    background-color: #fff;
+}
+
+.header .logo{
+    font-size: 2.5rem;
+    color:var(--black);
+    font-weight: bolder;
+}
+
+.header .navbar a{
+    font-size: 1.7rem;
+    color: var(--light-color);
+    margin-left: 2rem;
+}
+
+.header .navbar a:hover{
+    color:var(--main-color);
+}
 /* .br {
     background:rgba(174, 129, 84, 0.07);
 } */
 .bgcorak {
-    background-color: #E5E5E5;
-    border: 7px solid #92581838;    
     background-image: url(../img/corakkiri.png);
     background-size: 34vh;
     background-position: 0vh 92vh;
@@ -22,168 +82,420 @@ html {
 .bgcorak2 {
     background-image: url(../img/corakkanan.png);
     background-size: 43vh;
-    background-position: 215vh 163vh;
+    background-position: 215vh 189vh;
     background-repeat: no-repeat;
 }
 .bgcorak3 {
     background-image: url(../img/corakkiri.png);
     background-size: 34vh;
-    background-position: 0vh 72vh;
+    background-position: 0vh 330vh;
     background-repeat: no-repeat;
 }
 .bgcorak4 {
     background-image: url(../img/corakkanan.png);
-    background-size: 45vh;
-    background-position: 211vh 153vh;
+    background-size: 39vh;
+    background-position: 225vh 400vh;
     background-repeat: no-repeat;
 }
 #coveratas {
     background-image: url(../img/coverkarya.png);
     background-size: cover;
     height: 100%;
+    background-color: #000000BD;
     background-blend-mode:soft-light;
     text-align: center;
-}
-.sumber{
-    text-align: center;
-}
-.sumber h1{
-    padding: 200px 0 0 0;
-    color: #8A4704;
-    font-weight: bold;
-    font-size: 42px;
-    line-height: 52px;
-}
-.mengapa{
-    text-align: center;
-}
-.mengapa h1{
-    font-family: Nunito Sans;
-    color: #8A4704;
-    font-size: 42px;
-    line-height: 52px;
-    padding: 150px 0 0 0;
-}
-.mengapa p{
-    padding: 100px 300px 0 300px;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 .cover{
-    padding: 300px 0px 0px 0px;
     color:  white;
-    position: absolute;
+    position: relative;
     width: 100%;
     height: auto;
 }
 .cover h1 {
-    text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     font-family: 'Nunito', sans-serif;
 }
-.bor1 {
-    margin: 10px 0 0 620px;
-    text-align: center;
-    border-bottom: 4px solid #925818;
-    width: 12%;
+.cover p {
+    font-family: 'Roboto', sans-serif;
 }
-.bor2 {
-    margin: 10px 0 0 630px;
-    text-align: center;
-    border-bottom: 4px solid #925818;
-    width: 12%;
+
+/**----------------------------SEJARAH--------------------------**/
+
+#sejarah {
+    height: auto;
+    padding-top: 50px;
+    background:rgba(174, 129, 84, 0.07);
 }
-/* .linkkiri{
-    padding: 15px 0 15px 0;
-}
-.linkkanan{
-    padding: 15px 0 11px 0;
-} */
-.linksumber{
-    padding: 150px 0 0 250px ;
+.isisejarah {
+    width: 100%;
+    height: auto;
+    position: relative;
     display: flex;
-    flex-wrap: wrap;
-    text-align: left;
+    font-family: 'Nunito', sans-serif;
 }
-.titel{
-    /* text-decoration: none; */
-    font-family: Nunito Sans;
+.sejarahatasan {
+    display: none;
+}
+.sejarahkiri {
+    width: 45%;
+    padding: 70px 0px;
+}
+.sejarahkiri img {
+    padding-left: 15%;
+    width: 72%;
+}
+.sejarahkanan {
+    width: 48%;
+    padding: 55px 57px 0px 0px;
+}
+.sejarahkanan h1{
+    font-style: normal;
     font-weight: bold;
-    font-size: 25px;
-    line-height: 26px;
+    font-size: 38px;
+    line-height: 57px;
+    color:#8A4704;
 }
-.q p{
-    font-family: Roboto;
-    font-weight: 300;
+.sejarahkanan p{
+    padding-right: 42px;
+    font-style: normal;
     font-size: 20px;
-    line-height: 26px;
-    padding-bottom: 2px;
+    line-height: 30px;
+    color: #4F4F4F;
 }
-.p p{
-    font-family: Roboto;
-    font-weight: 300;
+.bora1 {
+    display: none;
+}
+/**----------------MAKNA----------------**/
+
+#makna {
+    height: 70%;
+    padding-top: 85px;
+    background:rgba(174, 129, 84, 0.07);
+}
+.isimakna {
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+}
+.maknaatasan {
+    display: none;
+}
+.maknatengah {
+    width: auto;
+    text-align: center;
+    padding: 35px 50px 0px 50px;
+}
+.maknatengah h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 57px;
+    color: #8A4704;
+}
+.maknatengah p{
+    padding: 0px 239px;
+    font-style: normal;
     font-size: 20px;
-    line-height: 26px;
-    padding-bottom: 2px;
+    line-height: 30px;
+    color: #4F4F4F;
 }
-.kontener1{
-    flex: 0%;
+.bora1 {
+    display: none;
 }
-.kontener2{
-    margin-left: 75px;
-    flex: 50%;
+.bora2 {
+    display: none;
 }
-a:link {
-    color: black;
-    /* text-decoration: none; */
+.bora4 {
+    display: inherit;
+    border-top: 4px solid #8A4704;
+    margin: 0px 645px;
 }
-a:visited {
-    color: black;
-    /* text-decoration: none; */
+/**----------------------------JENIS--------------------------**/
+
+#jenis {
+    height: 100%;
+    background:rgba(174, 129, 84, 0.07);
 }
-a:hover {
-    color: black;
-    /* text-decoration: underline; */
+.isijenis {
+    width: 100%;
+    height: 100%;
+    padding-top: 55px;
+    position: relative;
+    display: flex;
+    font-family: 'Nunito', sans-serif;
 }
-a:active {
-    color: black;
-    /* text-decoration: underline; */
+.jenisatasan {
+    display: none;
+}
+.jeniskiri {
+    width: 45%;
+}
+.jeniskiri img {
+    width: 70%;
+    padding-left: 24%;
+}
+.jeniskanan {
+    width: 45%;
+    padding: 10px 0px 30px 75px;
+}
+.jeniskanan h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 20px;
+    color:#8A4704;
+}
+.jeniskanan p{
+    padding-right: 125px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 37px;
+    color: #4F4F4F;
+}
+
+.nomor {
+    color:#8A4704;
+    font-weight: bold;
 }
 @media (min-width: 481px) and (max-width: 768px) {
-
+        .ber {
+            display: none;
+        }
         .bora1 {
             display: inherit;
-            border-top: 4px solid #925818;
+            border-top: 4px solid #8A4704;
             width: 45%;
         }        
         .bora2 {
             display: inherit;
-            border-top: 4px solid #925818;
-            width: 45%;
+            border-top: 4px solid #8A4704;
+            width: 18%;
+        }
+        .bora3 {
+            display: inherit;
+            border-top: 4px solid #8A4704;
+            width: 23%;
         }
 
         .bgcorak2 {
-            background-image: url(../img/corakkanan.png);
+            background-image: url(../img/corak2kiri.png);
             background-size: 43vh;
-            background-position: 130vh 223vh;
+            background-position: 109vh 220vh;
             background-repeat: no-repeat;
         }
-
+        .bgcorak3 {
+            background-image: url(../img/corak2kiri.png);
+            background-size: 40vh;
+            background-position: -11vh 312vh;
+            background-repeat: no-repeat;
+        }
         .bgcorak4 {
             background-image: url(../img/corak2kiri.png);
-            background-size: 63vh;
-            background-position: 111vh 99vh;
+            background-size: 45vh;
+            background-position: 123vh 460vh;
             background-repeat: no-repeat;
         }
+        /**------------------SEJARAH-----------------**/
+        #sejarah {
+            height: auto;
+        }
+        .sejarahatasan {
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 15px;
+            justify-content: space-around;
+        }
+        .sejarahkanan h1 {
+            display: none;
+        }
+        .isisejarah {
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+        }
+        .sejarahkiri {
+            width: 100%;
+            height: 100%;
+        }
+        .sejarahkiri img {
+            width: 65%;
+            padding-left: 135px;
+            height: 100%;
+        }
+        .sejarahkanan {
+            width: 100%;
+            text-align: center;
+            padding: 0px;
+        }
+        .sejarahkanan p {
+            font-size: 18px;
+            padding: 0px 92px;
+            text-align: left;
+        }
+        .sejarahatasan h1{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 57px;
+            color: #8A4704;
+        }
+
+        /**------------------JENIS-----------------**/
+        #jenis {
+            height: auto;
+            padding-bottom: 20%;
+        }
+        .jenisatasan {
+            flex-direction: column;
+        align-items: center;
+            display: inherit;
+            padding: 0px 47px;
+            padding-top: 15px;
+        }
+        .jenisatasan h1{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 57px;
+            color: #8A4704;
+        }
+        .jeniskanan h1 {
+            display: none;
+        }
+        .isijenis {
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+        }
+        .jeniskiri {
+            width: auto;
+            height: 80%;
+        }
+        .jeniskiri img {
+            width: 100%;
+            padding: 0px 0px;
+            padding-top: 35px;
+            height: 100%;
+        }
+        .isijenis {
+            height: auto;
+        }
+        .jeniskanan {
+            width: 100%;
+            padding-left: 75px;
+            padding-top: 50px;
+            padding-bottom: 25px;
+        }
+        .jeniskanan p {
+            font-size: 20px;
+            padding-right: 120px;
+            padding-left: 35px;
+        }
+        .jenisatasan h1{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 57px;
+            color: #8A4704;
+        }
+        /**----------------MAKNA----------------**/
+        .maknaatasan {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .maknaatasan h1 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 38px;
+            line-height: 57px;
+            color: #8A4704;
+        }
+        .maknatengah {
+            padding: 35px 50px 0px 60px;
+        }
+        .maknatengah p{
+            padding: 0px 54px;
+            text-align: left;
+            padding: 0px;
+        }
+
+        .maknatengah h1 {
+            display: none;
+        }
+        /**----------------JENIS----------------**/
+        .jeniskanan p {
+            padding: 0px 125px;
+        }
+        
 }
 
 @media (max-width: 480px) {
+    .ber {
+        display: none;
+    }
+    .bora1 {
+        display: inherit;
+        border-top: 4px solid #8A4704;
+        width: 45%
+    }
+    .bora2 {
+        display: inherit;
+        border-top: 4px solid #8A4704;
+        width: 20%;
+    }
+    .bora3 {
+        display: inherit;
+        border-top: 4px solid #8A4704;
+        width: 20%;
+    }
+    .bgcorak {
+        background-image: url(../img/corak2kiri.png);
+        background-size: 30vh;
+        background-position: -10vh 100vh;
+        background-repeat: no-repeat;
+    }
+    .bgcorak2 {
+        background-image: url(../img/corak2kiri.png);
+        background-size: 32vh;
+        background-position: 70vh 189vh;
+        background-repeat: no-repeat;
+    }
+    .bgcorak3 {
+        background-image: url(../img/corak2kiri.png);
+        background-size: 29vh;
+        background-position: -10vh 269vh;
+        background-repeat: no-repeat;
+    }
+    .bgcorak4 {
+        background-image: url(../img/corak2kiri.png);
+        background-size: 34vh;
+        background-position: 72vh 401vh;
+        background-repeat: no-repeat;
+    }
+
+
+    #coveratas {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
     .cover {
-        padding: 135px 0px 0px 21px;
         text-align: center;
+        padding: 0px;
         width: auto;
     }
+
     .cover h1 {
         font-size: 22px;
         padding: 0px 30px;
@@ -192,5 +504,138 @@ a:active {
         display: inherit;
         font-size: 10px;
         padding: 0px 70px;
+    }
+
+    /**------------------SEJARAH-----------------**/
+    #sejarah {
+        height: auto;
+        background-size: contain;
+    }
+    .sejarahatasan {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 47px;
+        padding-top: 15px;
+        justify-content: space-evenly;
+    }
+    .sejarahatasan h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 57px;
+        color: #8A4704;
+    }
+    .sejarahkanan h1 {
+        display: none;
+    }
+    .isisejarah {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    .sejarahkiri {
+        width: 100%;
+        padding-bottom: 0px;
+    }
+    .sejarahkanan {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .sejarahkanan h1 {
+        display: none;
+    }
+    .isisejarah {
+        flex-wrap: wrap;
+    }
+    .sejarahkiri {
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .sejarahkiri img{
+        padding-left: 58px;
+    }
+    .sejarahkanan p {
+        padding: 0px 30px;
+        line-height: 27px;
+        font-size: 13px;
+    }
+
+    /**--------------MAKNA--------**/
+    #makna {
+        width: 100%;
+        height: auto;
+    }
+    .maknatengah p {
+        padding: 0px 26px;
+        font-size: 13px;
+        width: auto;
+        line-height: 27px;
+        text-align: left;
+    }
+    .maknatengah h1 {
+        display: none;
+    }
+    .maknatengah {
+        padding: 0px;
+    }
+    .maknatengah {
+        padding: 0px;
+    }
+    .maknaatasan {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 15px;
+        flex-direction: column;
+        color: #8A4704;
+        align-items: center;
+    }
+    .maknaatasan  h1{
+        padding-top: 15px;
+    }
+    /**--------------JENIS--------**/
+
+    #jenis {
+        height: auto;
+        padding-bottom: 20%;
+    }
+    .jenisatasan {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .jenisatasan h1 {
+        font-size: 26px;
+        padding-top: 20px;
+        color: #8A4704;
+    }
+    .isijenis {
+        flex-direction: column;
+        height: auto;
+        padding-top: 15px;
+    }
+    .jeniskiri {
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .jeniskiri img {
+        width: 70%;
+        padding-left: 15%;
+    }
+    .jeniskanan {
+        width: 100%;
+        padding: 0px;
+    }
+    .jeniskanan p {
+        padding-left: 30px;
+        padding-right: 10px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .jeniskanan h1 {
+        display: none;
+    }
+    span {
+        padding-right: 10px;
     }
 }

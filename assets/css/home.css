@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300&display=swap');
 
 :root{
     --main-color:#925818;
@@ -9,13 +10,72 @@
     --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
 }
 
-* {
-    margin: 0px;
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
     text-decoration: none;
-    padding: 0px;
+    text-transform: capitalize;
+    transition: all .3s ease-out;
 }
-html {
+html{
+    font-size: 62.5%;
     scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+    overflow-x: hidden;
+}
+
+.heading{
+    text-align: center;
+    padding-bottom: 3rem;
+    font-size: 4rem;
+    color:var(--black);
+}
+
+.heading span{
+    color:var(--main-color);
+    border-radius: .5rem;
+    background: var(--bg);
+    padding:0 1.5rem;
+}
+
+.btn{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    display: inline-block;
+    padding:.8rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    color:#fff;
+    background:var(--main-color);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    position: relative;
+    z-index: 0;
+    overflow:hidden;
+}
+
+.btn::before{
+    content: '';
+    position: absolute;
+    top:0; right:0;
+    height: 100%;
+    width:0%;
+    background:var(--black);
+    z-index: -1;
+    transition: .2s ease-out;
+}
+
+.btn:hover::before{
+    left:0;
+    width:100%;
+}
+
+html, body{
+    width:100%;
+    height:100%;
+    overflow-x: hidden;
 }
 
 .header{
@@ -23,25 +83,15 @@ html {
     top:0; left:0; right: 0;
     z-index: 1000;
     background-color:transparent;
-    box-shadow: var(--box-shadow);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:2rem 9%;
+    padding:2rem 6%;
 }
 
 .header.active {
-    /* position: fixed;
-    top:0; left:0; right: 0;
-    z-index: 1000;
-    box-shadow: var(--box-shadow);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding:2rem 9%; */
     background-color: var(--main-color);
 }
-
 .header .logo{
     font-size: 2.5rem;
     color:var(--black);
@@ -50,21 +100,59 @@ html {
 
 .header .navbar a{
     font-size: 1.7rem;
-    color: var(--light-color);
-    margin-left: 2rem;
+    color: white;
+    margin-left: 3rem;
 }
 
 .header .navbar a:hover{
-    color:var(--main-color);
+    color:black;
+}
+
+#menu-btn{
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding:1rem 1.3rem;
+    border-radius: .5rem;
+    color: var(--main-color);
+    background: var(--bg);
+    display: none;
+}
+
+#menu-btn:hover{
+    color: #fff;
+    background: var(--main-color);
 }
 #coveratas {
     background-image: url(../img/HeroImageWeb.png);
     background-size: cover;
-    background-position: right;
     height: 100%;
 }
+.bgcorak {
+    background-image: url(../img/corakkiri.png);
+    background-size: 34vh;
+    background-position: 0vh 92vh;
+    background-repeat: no-repeat;
+}
+.bgcorak2 {
+    background-image: url(../img/corakkanan.png);
+    background-size: 43vh;
+    background-position: 215vh 189vh;
+    background-repeat: no-repeat;
+}
+.bgcorak3 {
+    background-image: url(../img/corakkiri.png);
+    background-size: 34vh;
+    background-position: 0vh 330vh;
+    background-repeat: no-repeat;
+}
+.bgcorak4 {
+    background-image: url(../img/corakkanan.png);
+    background-size: 39vh;
+    background-position: 225vh 400vh;
+    background-repeat: no-repeat;
+}
 .cover{
-    padding: 155px 0px 0px 75px;
+    padding: 220px 0px 0px 90px;
     color:  white;
     position: relative;
     width: 50%;
@@ -73,13 +161,13 @@ html {
 .cover h1 {
     font-size: 40px;
     font-family: 'Nunito', sans-serif;
-    font-weight: lighter;
-    padding-right: 115px;
+    padding-right: 75px;
 }
 .cover p {
-    font-size: 16px;
+    font-size: 18px;
     padding-top: 20px;
-    padding-right: 232px;
+    line-height: 27px;
+    padding-right: 100px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
@@ -99,16 +187,16 @@ html {
 }
 
 .pencetcover {
-    background: white;
-    color: #925818;
+    color: transparent;
+    color: white;
     font-weight: bold;
     font-family: 'Nunito', sans-serif;
     border: 2px solid white;
     margin-top: 25px;
 }
-.pencet:hover {
-    background-color: #252421;
-    color: white;
+.pencetcover:hover {
+    background-color: white;
+    color: black;
 }
 
 /**----------------------------ASAL--------------------------**/
@@ -116,6 +204,7 @@ html {
 #asal {
     height: auto;
     background: rgba(174, 129, 84, 0.07);
+    padding-top: 8%;
 }
 .isiasal {
     width: 100%;
@@ -130,12 +219,13 @@ html {
 }
 .asalkiri {
     width: 50%;
+    padding-left: 55px;
+    padding-top: 10px;
     height: auto;
-    padding: 50px 0px;
 }
 .asalkiri img {
-    width: 80%;
-    padding-left: 55px;
+    width: 88%;
+    padding-top: 60px;
     height: auto;
 }
 .asalkanan {
@@ -213,7 +303,7 @@ html {
 
 /**------------------------PPRODUK------------------**/
 #produk {
-    height: 80%;
+    height: 100%;
     background: rgba(174, 129, 84, 0.07);
     padding: 75px 90px;
     padding-bottom: 0px;
@@ -304,24 +394,25 @@ html {
         padding: 135px 0px 0px 0px;
     }
     .cover h1 {
-        font-size: 40px;
-        padding: 0px 85px;
+        font-size: 30px;
+        padding: 10px 163px;
     }
     .cover p {
-        padding: 0px 160px;
-        display: inherit;
-        padding-top: 20px;
+        padding: 0px 204px;
+    display: inherit;
+    font-size: 13px;
+    line-height: 19px;
+    padding-top: 20px;
     }
-    .pencet {
-        background: #252421;
-        margin: 10px 0px 0px 0px;
-        color: #925818;
+    .pencetcover {
+        color: transparent;
+        color: white;
         font-weight: bold;
         font-family: 'Nunito', sans-serif;
         border: 2px solid white;
         margin-top: 25px;
     }
-    .pencet:hover {
+    .pencetcover:hover {
         background-color: white;
         color: black;
     }
@@ -425,7 +516,7 @@ html {
     /**------------------------------PRODUK---------------------------------**/
     #produk {
         padding: 75px 50px 0px 50px;
-        height: auto;
+        height: 100%;
     }
     .produkatasan {
         width: 87%;
@@ -458,16 +549,26 @@ html {
         width: auto;
     }
     .cover h1 {
-        font-size: 22px;
-        padding: 0px 30px;
+        font-size: 27px;
+        padding: 10px 14px;
     }
     .cover p {
         display: inherit;
+        line-height: 16px;
         font-size: 10px;
-        padding: 0px 70px;
+        padding: 18px 70px;
     }
     .pencetcover {
-        margin: 10px 0px 0px 0px;
+        color: transparent;
+        color: white;
+        font-weight: bold;
+        font-family: 'Nunito', sans-serif;
+        border: 2px solid white;
+        margin-top: 25px;
+    }
+    .pencetcover:hover {
+        background-color: white;
+        color: black;
     }
     /**------------------ASAL-----------------**/
     #asal {
@@ -509,12 +610,15 @@ html {
     }
     .isiasal {
         flex-wrap: wrap;
+
     }
     .asalkiri {
         width: 100%;
+        padding-top: 30px;
+        padding-left: 15px;
     }
     .asalkiri img{
-        padding-left: 45px;
+        padding: 0px;
     }
     .asalkanan p {
         padding: 0px;

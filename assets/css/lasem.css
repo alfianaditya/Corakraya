@@ -74,7 +74,7 @@ html {
 .bgcorak2 {
     background-image: url(../img/corakkanan.png);
     background-size: 43vh;
-    background-position: 227vh 189vh;
+    background-position: 215vh 189vh;
     background-repeat: no-repeat;
 }
 .bgcorak3 {
@@ -86,7 +86,7 @@ html {
 .bgcorak4 {
     background-image: url(../img/corakkanan.png);
     background-size: 39vh;
-    background-position: 227vh 423vh;
+    background-position: 225vh 400vh;
     background-repeat: no-repeat;
 }
 #coveratas {
@@ -463,7 +463,7 @@ html {
     .bgcorak4 {
         background-image: url(../img/corak2kiri.png);
         background-size: 34vh;
-        background-position: 65vh 375vh;
+        background-position: 72vh 401vh;
         background-repeat: no-repeat;
     }
 

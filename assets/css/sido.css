@@ -11,6 +11,8 @@
     --border:.1rem solid rgba(0,0,0,.1);
     --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
 }
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -28,12 +30,8 @@ html {
     border: none;
     
 }
-/* .br {
-    background:rgba(174, 129, 84, 0.07);
-} */
 
-
-header{
+.header{
     position: fixed;
     top:0; left:0; right: 0;
     z-index: 1000;
@@ -72,6 +70,9 @@ header{
 .header .navbar a:hover{
     color:var(--main-color);
 }
+/* .br {
+    background:rgba(174, 129, 84, 0.07);
+} */
 .bgcorak {
     background-image: url(../img/corakkiri.png);
     background-size: 34vh;
@@ -81,7 +82,7 @@ header{
 .bgcorak2 {
     background-image: url(../img/corakkanan.png);
     background-size: 43vh;
-    background-position: 227vh 189vh;
+    background-position: 215vh 189vh;
     background-repeat: no-repeat;
 }
 .bgcorak3 {
@@ -93,7 +94,7 @@ header{
 .bgcorak4 {
     background-image: url(../img/corakkanan.png);
     background-size: 39vh;
-    background-position: 227vh 423vh;
+    background-position: 72vh 401vh;
     background-repeat: no-repeat;
 }
 #coveratas {
@@ -150,10 +151,10 @@ header{
     width: 72%;
 }
 .sejarahkanan {
-    width: 48%;
-    padding: 55px 57px 0px 0px;
+    width: 100%;
 }
 .sejarahkanan h1{
+    text-align: center;
     font-style: normal;
     font-weight: bold;
     font-size: 38px;
@@ -161,31 +162,15 @@ header{
     color:#8A4704;
 }
 .sejarahkanan p{
-    padding-right: 42px;
+    padding: 0px 262px;
     font-style: normal;
     font-size: 20px;
+    text-align: center;
     line-height: 30px;
     color: #4F4F4F;
 }
-.sejarahtengah{
-    text-align: center;
-}
-.sejarahtengah h1{
-    color:#8A4704;
-    font-size: 35px;
-}
-.sejarahtengah p{
-    padding: 0 300px 0 300px;
-    color: #4F4F4F
-}
 .bora1 {
     display: none;
-}
-    
-.bora2 {
-    display: inherit;
-    border-top: 4px solid #8A4704;
-    width: 18%;
 }
 /**----------------MAKNA----------------**/
 
@@ -493,7 +478,7 @@ header{
     .bgcorak4 {
         background-image: url(../img/corak2kiri.png);
         background-size: 34vh;
-        background-position: 65vh 375vh;
+        background-position: 72vh 401vh;
         background-repeat: no-repeat;
     }
 
