@@ -21,7 +21,84 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.mt-5{
+    margin-top:5rem;
+}
 
+.mt-4{
+    margin-top:4rem;
+}
+
+.mt-3{
+    margin-top:3rem;
+}
+
+.mt-2{
+    margin-top:2rem;
+}
+
+.m-5{
+    margin:5rem;
+}
+
+.m-4{
+    margin:4rem;
+}
+
+.m-3{
+    margin:3rem;
+}
+
+.m-2{
+    margin:2rem;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-referensi-batik{
+    width: 500px;
+}
+
+.col-md-6{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.title-ref{
+    margin-bottom: 20px;
+}
+
+.title-ref p{
+    font-size: 20px;
+    font-weight: 700;
+    color: #464646;
+}
+
+.content-ref a{
+    text-decoration: none;
+    color: #464646;
+}
+
+.content-ref a:hover{
+    text-decoration: none;
+    color: #464646;
+}
 
 
 * {
@@ -108,7 +185,7 @@ html {
 }
 
 .header-title-tentang p{
-    font-size: 25px;
+    font-size: 30px;
     color: #8A4704;
     font-weight: 700;
 }
