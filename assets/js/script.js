@@ -7,27 +7,21 @@ menu.onclick = () =>{
 } 
 
 var header = document.querySelector('.header');
+// var text = document.querySelector('.header .navbar a');
 var oldColor = header.style.backgroundColor;
 
 document.body.addEventListener('scroll', () => {
     let yPosition = document.body.scrollTop;
     if (yPosition > 100) {
         header.style.backgroundColor = "#fff";
+        // text.style.color = "black";
     }
     else {
         header.style.backgroundColor = oldColor;
+        text.style.color = "white";
     }
 })
 
-// const header = document.querySelector('.header');
-
-// window.onscroll = function () {
-
-//     var top = window.scrollY;
-//     console.log(top);
-//     if (top >= 100) {
-//         header.classList.add('active');
-//     } else{
-//         header.classList.remove('active');
-//     }
-// }
+function kirim() {
+    alert("Pesan Berhasil Dikirim");
+  }

@@ -89,9 +89,6 @@ html, body{
     padding:2rem 6%;
 }
 
-.header.active {
-    background-color: var(--main-color);
-}
 .header .logo{
     font-size: 2.5rem;
     color:var(--black);
@@ -104,9 +101,9 @@ html, body{
     margin-left: 3rem;
 }
 
-.header .navbar a:hover{
+/* .header .active .navbar a{
     color:black;
-}
+} */
 
 #menu-btn{
     cursor: pointer;
