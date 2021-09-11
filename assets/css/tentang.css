@@ -2,6 +2,7 @@
 /**## BER= BR PC ONLY##**/
 /**## BORA= GARIS ANDROID ONLY##**/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 :root{
     --main-color:#925818;
@@ -11,6 +12,16 @@
     --border:.1rem solid rgba(0,0,0,.1);
     --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
 }
+
+.nunito{
+    font-family: 'Nunito', sans-serif;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+
 
 
 * {
@@ -69,6 +80,37 @@ html {
 
 .header .navbar a:hover{
     color:var(--main-color);
+}
+
+.header-title-tentang{
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+.line-title-tentang{
+    border-radius: 100px;
+    margin:auto;
+    height: 3px;
+    width: 10%;
+    background-color: #8A4704;
+}
+
+.text-tentang{
+    margin:auto;
+    color:#464646;
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+}
+
+.wrapper-text-tentang{
+    margin:20px;
+}
+
+.header-title-tentang p{
+    font-size: 25px;
+    color: #8A4704;
+    font-weight: 700;
 }
 /* .br {
     background:rgba(174, 129, 84, 0.07);
