@@ -5,7 +5,8 @@
 }
 
 .isijenis {
-    width: 60%;
+    width: 62%;
+    padding-top: 40px;
     display: flex;
     height: auto;
     font-family: 'Nunito', sans-serif;
