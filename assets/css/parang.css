@@ -170,11 +170,12 @@ html, body{
     height: auto;
 }
 .cover h1 {
-    font-size: 40px;
+    font-size: 60px;
     font-family: 'Nunito', sans-serif;
 }
 .cover p {
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 
 /**----------------------------SEJARAH--------------------------**/

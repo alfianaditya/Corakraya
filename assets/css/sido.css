@@ -145,7 +145,7 @@ html, body{
 .bgcorak4 {
     background-image: url(../img/corakkanan.png);
     background-size: 39vh;
-    background-position: 72vh 401vh;
+    background-position: 204vh 371vh;
     background-repeat: no-repeat;
 }
 #coveratas {
@@ -169,11 +169,12 @@ html, body{
     height: auto;
 }
 .cover h1 {
-    font-size: 40px;
+    font-size: 60px;
     font-family: 'Nunito', sans-serif;
 }
 .cover p {
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 
 /**----------------------------SEJARAH--------------------------**/
@@ -290,7 +291,7 @@ html, body{
     width: 45%;
 }
 .jeniskiri img {
-    width: 70%;
+    width: 90%;
     padding-left: 24%;
 }
 .jeniskanan {

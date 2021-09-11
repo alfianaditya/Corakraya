@@ -497,13 +497,12 @@ html {
     }
 
     .cover h1 {
-        font-size: 22px;
-        padding: 0px 30px;
+        font-size: 60px;
+        font-family: 'Nunito', sans-serif;
     }
     .cover p {
-        display: inherit;
-        font-size: 10px;
-        padding: 0px 70px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
     }
 
     /**------------------SEJARAH-----------------**/
